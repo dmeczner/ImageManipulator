@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ChangeToneOfPictureApp": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\dmecz\\source\\repos\\ImageManipulator\\ImageManipulatorUnitTest\\PictureForTest\\originalTestPicture.jpg"
+    }
+  }
+}

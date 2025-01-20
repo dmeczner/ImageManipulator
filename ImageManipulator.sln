@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeDetectorApp", "PeopleAndAgeDetectorApp\AgeDetectorApp.csproj", "{08CB5E29-77B5-41FB-8CDB-307360CA0641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeToneOfPictureApp", "ChangeToneOfPictureApp\ChangeToneOfPictureApp.csproj", "{9B7F7C3D-DE9E-495C-BE93-9F13BACF3D16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageManipulatorUnitTest", "ImageManipulatorUnitTest\ImageManipulatorUnitTest.csproj", "{316BCDDF-FB4E-47DA-BE79-2CE7B5F8B37E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ImageManipulatorSharedCommon", "ImageManipulatorSharedCommon\ImageManipulatorSharedCommon.shproj", "{E3FD1183-4A4F-49F4-8648-B96D5AD69C2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08CB5E29-77B5-41FB-8CDB-307360CA0641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CB5E29-77B5-41FB-8CDB-307360CA0641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CB5E29-77B5-41FB-8CDB-307360CA0641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CB5E29-77B5-41FB-8CDB-307360CA0641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7F7C3D-DE9E-495C-BE93-9F13BACF3D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7F7C3D-DE9E-495C-BE93-9F13BACF3D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7F7C3D-DE9E-495C-BE93-9F13BACF3D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7F7C3D-DE9E-495C-BE93-9F13BACF3D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{316BCDDF-FB4E-47DA-BE79-2CE7B5F8B37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316BCDDF-FB4E-47DA-BE79-2CE7B5F8B37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316BCDDF-FB4E-47DA-BE79-2CE7B5F8B37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316BCDDF-FB4E-47DA-BE79-2CE7B5F8B37E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ImageManipulatorSharedCommon\ImageManipulatorSharedCommon.projitems*{08cb5e29-77b5-41fb-8cdb-307360ca0641}*SharedItemsImports = 5
+		ImageManipulatorSharedCommon\ImageManipulatorSharedCommon.projitems*{316bcddf-fb4e-47da-be79-2ce7b5f8b37e}*SharedItemsImports = 5
+		ImageManipulatorSharedCommon\ImageManipulatorSharedCommon.projitems*{9b7f7c3d-de9e-495c-be93-9f13bacf3d16}*SharedItemsImports = 5
+		ImageManipulatorSharedCommon\ImageManipulatorSharedCommon.projitems*{e3fd1183-4a4f-49f4-8648-b96d5ad69c2f}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
